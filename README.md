@@ -1,131 +1,30 @@
-Table of Contents
-Overview
+# 🛍️ ShoppyGlobe - Modern E-Commerce App
 
-Features
+![alt text](image.png)
+![alt text](image-1.png)
 
-Technologies Used
+A feature-rich e-commerce application built with React, Redux, and Vite. ShoppyGlobe demonstrates modern web development practices with a complete shopping experience.
 
-Installation
+[![React](https://img.shields.io/badge/React-18.2-blue)](https://reactjs.org/)
+[![Redux](https://img.shields.io/badge/Redux_Toolkit-1.9-purple)](https://redux-toolkit.js.org/)
+[![Vite](https://img.shields.io/badge/Vite-4.0-orange)](https://vitejs.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Usage
+## ✨ Features
 
-Project Structure
+- **Product Catalog**
+  - Browse products with images, prices, and ratings
+  - Search and filter functionality
+  - Product detail pages
 
-Redux Store
+- **Shopping Cart**
+  - Add/remove products
+  - Adjust quantities
+  - Real-time total calculation
 
-API Integration
-
-Contributing
-
-License
-
-Overview
-ShoppyGlobe is a modern e-commerce application built with React, Redux, and React Router. It features product listings, product details, shopping cart functionality, and responsive design.
-
-Features
-Product Listing: View all available products with images, prices, and ratings
-
-Product Search: Filter products by name
-
-Product Details: View detailed information about each product
-
-Shopping Cart:
-
-Add/remove products
-
-Adjust quantities
-
-View cart total
-
-Responsive Design: Works on mobile, tablet, and desktop
-
-State Management: Redux for centralized cart state
-
-Routing: React Router for seamless navigation
-
-Technologies Used
-React - JavaScript library for building user interfaces
-
-Redux Toolkit - State management
-
-React Router - Client-side routing
-
-Vite - Build tool and development server
-
-Axios - HTTP client for API requests
-
-CSS3 - Styling
-
-Installation
-Clone the repository:
-
-bash
-git clone https://github.com/your-username/shoppy-globe.git
-cd shoppy-globe
-Install dependencies:
-
-bash
-npm install
-Start the development server:
-
-bash
-npm run dev
-Open your browser and navigate to:
-
-http://localhost:5173
-Usage
-Browse products on the home page
-
-Click on a product to view details
-
-Add products to your cart
-
-Adjust quantities or remove items from the cart
-
-View your cart total
-
-Project Structure
-src/
-├── components/          # Reusable UI components
-│   ├── Cart/           # Cart related components
-│   ├── Header/         # Header component
-│   ├── Product/        # Product related components
-│   └── NotFound.jsx    # 404 page
-├── hooks/              # Custom hooks
-├── pages/              # Page components
-├── redux/              # Redux store configuration
-├── App.jsx             # Main application component
-├── main.jsx            # Application entry point
-└── index.css           # Global styles
-Redux Store
-The application uses Redux Toolkit to manage the shopping cart state. The store includes:
-
-cartSlice: Handles all cart-related actions
-
-addToCart: Adds a product to the cart or increments quantity
-
-removeFromCart: Removes a product from the cart
-
-updateQuantity: Updates the quantity of a cart item
-
-clearCart: Empties the cart completely
-
-API Integration
-The application fetches product data from the DummyJSON API:
-
-Product list: https://dummyjson.com/products
-
-Single product: https://dummyjson.com/products/{id}
-
-Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the repository
-
-Create a new branch (git checkout -b feature-branch)
-
-Commit your changes (git commit -m 'Add new feature')
-
-Push to the branch (git push origin feature-branch)
-
-Open a Pull Request
+- **Modern Architecture**
+  - Redux state management
+  - React Router navigation
+  - Responsive design
+  - API data fetching
+  - Code splitting with React.lazy
